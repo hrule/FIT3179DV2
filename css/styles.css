@@ -414,18 +414,17 @@ h2 {
 /* ====================== ATTRIBUTIONS SECTION ====================== */
 
 .attribution-section {
-  height: 200px;
+  height: 350px;
   width: 100%;
   padding: 16px;
-  background-color: grey;
+  background-color: gray;
+  box-sizing: border-box;
 }
 
 .attribution-text {
   height: 100%;
   padding-left: 16px;
   padding-right: 16px;
-  box-sizing: border-box;
-  white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
+  background-color: gray;
 }
