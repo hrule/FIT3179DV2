@@ -38,7 +38,7 @@
           "sort": {"field": "SalaryChange", "order": "descending"}
         },
         "x": {"field": "Salary24", "type": "quantitative", "title": "Salary"},
-        "color": {"value": "#1f77b4"},
+        "color": {"value": "#cba3ff"},
         "tooltip": [
           {"field": "Team", "type": "nominal"},
           {"field": "Salary24", "type": "quantitative", "format": "$,.0f", "title": "Salary 2024"}
@@ -54,7 +54,7 @@
           "sort": {"field": "SalaryChange", "order": "descending"}
         },
         "x": {"field": "Salary25", "type": "quantitative"},
-        "color": {"value": "#ff7f0e"},
+        "color": {"value": "#6a0dad"},
         "tooltip": [
           {"field": "Team", "type": "nominal"},
           {"field": "Salary25", "type": "quantitative", "format": "$,.0f", "title": "Salary 2025"}
