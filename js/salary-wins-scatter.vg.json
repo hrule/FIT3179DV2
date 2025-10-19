@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "data/teams_salaries_wins_change.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#999", "strokeWidth": 1},
+      "encoding": {
+        "y": {"datum": 0},
+        "x": {"aggregate": "min", "field": "SALARY_CHANGE"},
+        "x2": {"aggregate": "max", "field": "SALARY_CHANGE"}
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#999", "strokeWidth": 1},
+      "encoding": {
+        "x": {"datum": 0},
+        "y": {"aggregate": "min", "field": "WIN_CHANGE"},
+        "y2": {"aggregate": "max", "field": "WIN_CHANGE"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "x": {
+          "field": "SALARY_CHANGE",
+          "type": "quantitative",
+          "title": "Change in Salary",
+          "scale": {"zero": true},
+          "axis": {"format": "$,.0f", "grid": false}
+        },
+        "y": {
+          "field": "WIN_CHANGE",
+          "type": "quantitative",
+          "title": "Change in Wins",
+          "scale": {"zero": true}
+        },
+        "color": {
+          "field": "WIN_CHANGE",
+          "type": "quantitative",
+          "scale": {
+            "domain": [-30, 30],
+            "range": ["#F44336", "#4CAF50"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "Team", "title": "Team"},
+          {"field": "WIN_CHANGE", "title": "Win Change"},
+          {"field": "SALARY_CHANGE", "title": "Salary Change", "format": "$,.0f"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "transparent"},
+    "background": "rgba(255,255,255,0)"
+  }
+}

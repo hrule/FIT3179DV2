@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "params": [
+    {
+      "name": "conferenceSelect",
+      "value": "East"
+    }
+  ],
+  "layer": [
+    {
+      "data": {"url": "data/top5_salaries_2025.csv"},
+      "transform": [
+        {"filter": "datum.Conference == conferenceSelect"}
+      ],
+      "mark": {
+        "type": "bar",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "Team",
+          "type": "nominal",
+          "axis": {"title": null, "grid": false, "labelAlign": "left", "labelPadding": 100},
+          "sort": {"field": "Salary", "op": "sum", "order": "descending"}
+        },
+        "x": {
+          "field": "Salary",
+          "type": "quantitative",
+          "axis": {"title": "Salary", "grid": false, "format": "$,.0f"}
+        },
+        "color": {
+          "field": "Team",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Cleveland Cavaliers","Boston Celtics","New York Knicks","Indiana Pacers","Milwaukee Bucks",
+              "Oklahoma City Thunder","Houston Rockets","Los Angeles Lakers","Denver Nuggets","Los Angeles Clippers"
+            ],
+            "range": ["#6E243B","#007E46","#ED8025","#F5B52E","#E8DAC0","#0077BF","#C8103F","#2F006C","#F7C026","#0A213E"]
+          }
+        },
+        "tooltip": [
+          {"field": "Player", "type": "nominal"},
+          {"field": "Salary", "type": "quantitative", "format": "$,.0f"},
+          {"field": "Age", "type": "quantitative"},
+          {"field": "Team", "type": "nominal"},
+          {"field": "Rank", "type": "ordinal"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"level": 140588000, "label": "Salary Cap"},
+          {"level": 188931000, "label": "2nd Apron"}
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 4],
+        "color": "red",
+        "size": 2
+      },
+      "encoding": {
+        "x": {"field": "level", "type": "quantitative", "axis": {"format": "$,.0f"}},
+        "tooltip": [
+          {"field": "label", "type": "nominal"},
+          {"field": "level", "type": "quantitative", "format": "$,.0f"}
+        ]
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}

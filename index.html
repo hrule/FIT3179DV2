@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main">
+      <!-- Header Section -->
+      <div class="header-section">
+        <div class="pure-g">
+          <div class="pure-u-1-3">
+            <div class="header-left">
+              <div class="title">
+                <img src="data/images/nba-logo.png" alt="NBA Logo" class="nba-logo">
+                <h1 class="header-text">NBA TRADES</h1>
+              </div>
+
+              <h2 class="header-text">
+                Coming into the 2025-26 season, how have transactions been shaping the league?
+              </h2>
+
+              <p class="text header-text"> 
+                Disclaimer: All information correct as of 19th October 2025. 
+              </p>
+              <p class="text header-text">
+                With the start of the 25-26 NBA season around the corner, 
+                lets take a quick review of on NBA transactions, and what we can 
+                expect for this season. 
+              </p>
+              <p class="text header-text">
+                The map on the right shows how teams involvement in trades have changed over time.
+                It is commonly rumoured that teams avoid trading within their own conference, however 
+                multiple analyses have found no evidence for this, and as we can see, trades seem frequent,
+                and indiscriminatory. 
+              </p>
+              <p class="header-text">
+                Each NBA season can be thought of as a fiscal year starting from July 1st, and ending June 30th. 
+                So far, for the 2025 season, which is kicking off soon, 47 teams have been involved in trades.
+                Typically around 100 teams are involved in trades per season, so we can expect to see more movement in the future.
+              </p>
+
+
+              
+            </div>
+
+          </div>
+          <div class="pure-u-2-3">
+            <div class="header-right"> 
+              <div class="vis-container">
+                <div id="trade-map"></div>
+                <div id="line-trade"></div>
+              </div>
+
+              <div class="header-caption">
+                <p class="text header-caption-text">
+                  Map of trade counts since the 2010 season. Click and drag the line chart to filter seasons.
+                  <br>
+                  Click the button below to show/hide edges.
+                </p>
+                <button id="toggleEdges" class="text eye-button">
+                  👁 Show/Hide Edges
+                </button>
+              </div>
+
+              <div class="pure-g">
+                <div class="pure-u-1-2 header-text ">
+                  <div class="header-right-text"> 
+                    <p class="text"> 
+                      Some notable observations you might be able to make are that the Spurs have had 
+                      relatively little involvement in trades (38) in the past 15 seasons. This may be due to 
+                      their nature to develop talent, as well as their dynasty from 1999 to 2014. 
+                    </p>  
+                  </div>
+                </div>
+                <div class="pure-u-1-2 header-text">
+                  <div class="header-right-text"> 
+                    <p class="text"> 
+                      On the otherhand teams like the Philadelphia 76ers, Oklahoma City Thunder, and Houston Rockets,
+                      have been incredibly active, going through several iterations of teams to build the best team possible
+                      and stay competitive.  
+                    </p>  
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conference Section -->
+      <div class="conference-section">
+        <div class="section-header">
+          <h1>EAST VS WEST</h1>
+        </div>
+
+        <div class="pure-g">
+          <!-- Left Column: West -->
+          <div class="pure-u-1-3 side-col">
+            <div id="btn-west" class="toggle-div">
+              <img src="data/images/west-jersey.png" alt="West">
+              <span class="label">West</span>
+            </div>
+
+            <div class="team-list">
+              <h3>2024-25 Conference Rankings</h3>
+              <ul>
+                <li><span class="rank">1.</span> <span class="color-box" style="background:#0077BF"></span> Oklahoma City Thunder <img src="data/images/larry.png" class="champ-icon" alt="Champ"></li>
+                <li><span class="rank">2.</span> <span class="color-box" style="background:#C8103F"></span> Houston Rockets</li>
+                <li><span class="rank">3.</span> <span class="color-box" style="background:#2F006C"></span> Los Angeles Lakers</li>
+                <li><span class="rank">4.</span> <span class="color-box" style="background:#F7C026"></span> Denver Nuggets</li>
+                <li><span class="rank">5.</span> <span class="color-box" style="background:#0A213E"></span> Los Angeles Clippers</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Center Column -->
+          <div class="pure-u-1-3">
+            <div class="center-col">  
+
+              <div class="east-west-map-container">
+                <div class="vis-container">
+                  <div id="east-west-map"></div>
+                </div>
+              </div>
+  
+              <p class="text">
+                The NBA is separated into the East and West conference, where only a single team from each conference
+                can play in the NBA Finals, and fight for the championship.
+                <br>
+                <br>
+                Last season (24-25 season), the OKC Thunder won the championship while surprisingly being the 
+                cheapest of the top teams in the Western Conference.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: East -->
+          <div class="pure-u-1-3 side-col">
+            <div id="btn-east" class="toggle-div active">
+              <img src="data/images/east-jersey.avif" alt="East">
+              <span class="label">East</span>
+            </div>
+
+            <div class="team-list">
+              <h3>2024-25 Conference Rankings</h3>
+              <ul>
+                <li><span class="rank">1.</span> <span class="color-box" style="background:#6E243B"></span> Cleveland Cavaliers</li>
+                <li><span class="rank">2.</span> <span class="color-box" style="background:#007E46"></span> Boston Celtics</li>
+                <li><span class="rank">3.</span> <span class="color-box" style="background:#ED8025"></span> New York Knicks</li>
+                <li><span class="rank">4.</span> <span class="color-box" style="background:#F5B52E"></span> Indiana Pacers</li>
+                <li><span class="rank">5.</span> <span class="color-box" style="background:#E8DAC0"></span> Milwaukee Bucks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="conference-graph-section">
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <div class="graph-block">
+              <h3 class="graph-title">24-25 Top 5 Team Salaries</h3>
+              <div class="vis-container east-west-graph-section">
+                <div id="salary-stacked-bar"></div>
+              </div>
+            </div>
+            <div class="graph-text">
+              <p class="text">
+                Flipping through the East and West conference with the buttons above, you might be able to observe
+                a common trend both team salaries and their rankings over time. 
+  
+                With the salaries, you'll see that all teams are above the Salary Cap, which is intended to be a 
+                maximum limit on the amount that teams are able to spend, to limit wealthier teams from constructing 
+                unfair rosters. Some will even go above the Second Apron, which incurs heavy penalties. 
+              </p>
+            </div>
+          </div>
+
+          <div class="pure-u-1-2">
+            <div class="graph-block">
+              <h3 class="graph-title">Conference Rankings of 24-25 Top 5 Teams over 15 seasons</h3>
+              <div class="vis-container east-west-graph-section">
+                <div id="team-conf-rank"></div>
+              </div>
+            </div>
+            <div class="graph-text">
+              <p class="text">
+                Even more interestingly, in the rankings chart, the success of teams are like unpredictable waves.
+                For the Western conference, all top 5 ranking teams of last season showed a noticeable dip in rankings
+                in the 2021 season. <br>
+                This demonstrates that teams windows of high-level competition are limited. With salary, aging, and 
+                other competition being large factors. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impact-section">
+        <div class="section-header">
+          <h1>IMPACT</h1>
+        </div>
+
+        <div class="impact-sig-trades-section">
+          <div class="pure-g">
+            <div class="pure-u-1-3">
+              <div class="graph-text">
+                <p class="text">
+                  Teams trade and make transactions in order to win. 
+                  Taking a look back at some of the most impactful trades of last season, 
+                  Jimmy Butler and Luka Doncic are some great examples. 
+                  <br>
+                  <br>
+                  Before the Warriors landed Jimmy Butler, they were 25W-26L (49% win rate).
+                  <br>
+                  However after the Jimmy Butler trade, they went 23W-8L (74% win rate) to finish the season. 
+                  <br>
+                  <br>
+                  Trades can alter the trajectory of a whole franchise. 
+                  The Warriors after signing Jimmy Butler, signed Al Horford recently, and aim to make the Playoffs. 
+                  <br>
+                  The Lakers are also making big moves to surround Luka Doncic with sufficient talent. 
+                  <br>
+                  <br>
+                  Sometimes a single trade is the difference to winning a championship. 
+                </p>
+              </div>
+            </div>
+  
+            <div class="pure-u-2-3">
+              <div class="team-impact-row">
+                <img src="data/images/jimmy_butler.png" alt="Jimmy Butler" />
+                <div class="vis-container">
+                  <div id="gsw-games-diff"></div>
+                </div>
+              </div>
+
+              <div class="team-impact-row">
+                <img src="data/images/luka_doncic.avif" alt="Luka Doncic" />
+                <div class="vis-container">
+                  <div id="lal-games-diff"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="impact-salary-section">
+          <div class="pure-g">
+            <div class="pure-u-1-3">
+              <div class="vis-container">
+                <div id="salary-wins-scatter"></div>
+              </div>
+            </div>
+
+            <div class="pure-u-1-3">
+              <div class="vis-container">
+                <div id="salary-dumbbell"></div>
+              </div>
+            </div>
+  
+            <div class="pure-u-1-3">
+              <div class="graph-text">
+                <p class="text">
+                  This upcoming season, all eyes will be on the transactions that teams have made, 
+                  and how they match up to expectations. 
+                  <br>
+                  <br>
+                  The Detroit Pistons have proved to make a large yet cheap single year leap, 
+                  similar to the San Antonio Spurs. On the otherhand, other teams are 'tanking', and 
+                  slimming down to prepare for future competition, such as the Nets. 
+                  <br>
+                  <br>
+                  Other teams with large changes in salary such as the Caveliers, Magic, and Mavericks 
+                  need to win to justify their choices. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="attributions-section">
+          <div class="pure-g">
+            <div class="pure-u-1-3">
+              <div class="attributions-text">
+                <p class="attributions-text text">
+                  Created by: Haru 
+                  <br>
+                  <br>
+                  Attributions:
+                  <br>
+                  <br>
+                  _Sports stadium locations_. (2022, January 15). Kaggle. https://www.kaggle.com/datasets/logandonaldson/sports-stadium-locations
+                  <br>
+                  <br>
+                  _NBA player stats and salaries 2010-2025_. (2025, June 3). Kaggle. https://www.kaggle.com/datasets/ratin21/nba-player-stats-and-salaries-2010-2025
+                </p>
+              </div>
+            </div>
+            <div class="pure-u-1-3">
+              <div class="graph-text">
+                <p class="text">
+                  Marousek, F. (2025, October 19). _Search Basketball Transactions_ [Review of _Search Basketball Transactions_]. Prosportstransactions.
+                  <br>
+                  <br>
+                  _NBA Team salaries & Contracts | HoopsHype_. (n.d.). HoopsHype. https://www.hoopshype.com/salaries/teams/?season=2025
+                  <br>
+                  <br>
+                  Swar. (n.d.). _GitHub - swar/nba_api: An API Client package to access the APIs for NBA.com_. GitHub. https://github.com/swar/nba_api                
+                </p>
+              </div>
+            </div>
+            <div class="pure-u-1-3">
+              <div class="graph-text">
+                <p class="text">
+                  https://www.citypng.com/png-download/25843
+                  <br>
+                  <br>
+                  https://thenounproject.com/browse/icons/term/larry-obrien/                  
+                </p>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+
+  <script src="js/main.js"></script>
+  </body>
+</html>

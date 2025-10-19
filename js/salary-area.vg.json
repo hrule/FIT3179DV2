@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 950,
+  "height": 450,
+  "data": { "url": "data/team_salaries.csv" },
+  "transform": [
+    { "calculate": "toNumber(datum.Salary)", "as": "Salary" }
+  ],
+  "params": [
+    {
+      "name": "conf_filter",
+      "value": "East",
+      "bind": {
+        "input": "select",
+        "options": ["East", "West"],
+        "labels": ["East", "West"],
+        "name": "Select Conference: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        { "filter": "datum.Conference == conf_filter" }
+      ],
+      "mark": { "type": "area", "interpolate": "monotone", "tooltip": true },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal", "axis": { "title": "Season", "labelAngle": 0 } },
+        "y": { "field": "Salary", "type": "quantitative", "stack": "zero", "axis": { "title": "Total Salary (USD)" } },
+        "color": {
+          "field": "Team",
+          "type": "nominal",
+          "title": "Team",
+          "sort": { "op": "sum", "field": "Salary", "order": "ascending" },
+          "scale": { "scheme": "category20" },
+          "legend": { "orient": "bottom", "columns": 5, "symbolLimit": 40, "titleFontSize": 13, "labelFontSize": 11 }
+        },
+        "tooltip": [
+          { "field": "Team", "title": "Team" },
+          { "field": "Year", "title": "Year" },
+          { "field": "Salary", "title": "Salary", "format": "$,.0f" },
+          { "field": "Conference", "title": "Conference" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          { "x": 2014, "y": 1400000000, "label": "2015 rise in salary" }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "dy": 5,
+        "fontSize": 14,
+        "fontStyle": "italic",
+        "color": "black"
+      },
+      "encoding": {
+        "x": { "field": "x", "type": "ordinal" },
+        "y": { "field": "y", "type": "quantitative" },
+        "text": { "field": "label", "type": "nominal" }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": "transparent" },
+    "axis": { "labelFontSize": 12, "titleFontSize": 14 }
+  }
+}

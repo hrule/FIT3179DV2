@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "data/lakers_diff.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusTopLeft": 2,
+        "cornerRadiusTopRight": 2
+      },
+      "encoding": {
+        "x": { "field": "GameNumber", "type": "quantitative", "axis": null },
+        "y": { "field": "PointDiff", "type": "quantitative", "axis": {"title": null, "grid": false}, "scale": {"zero": true} },
+        "color": {
+          "condition": { "test": "datum.PointDiff > 0", "value": "#2ca02c" },
+          "value": "#d62728"
+        },
+        "tooltip": [
+          { "field": "GameNumber", "type": "quantitative", "title": "Game" },
+          { "field": "MATCHUP", "type": "nominal", "title": "Matchup" },
+          { "field": "WL", "type": "nominal", "title": "Result" },
+          { "field": "PTS", "type": "quantitative", "title": "Points Scored" },
+          { "field": "PointDiff", "type": "quantitative", "title": "Point Differential" }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          { "GameNumber": 52, "label": "Luka Doncic's first game" }
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "black",
+            "strokeDash": [4,4],
+            "size": 1
+          },
+          "encoding": {
+            "x": { "field": "GameNumber", "type": "quantitative" },
+            "y": { "value": 0 },
+            "y2": { "value": 160 }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "baseline": "bottom",
+            "dy": -8,
+            "fontSize": 12,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "x": { "field": "GameNumber", "type": "quantitative" },
+            "y": { "value": 160 },
+            "text": { "field": "label" }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": { "stroke": "transparent" },
+    "background": "rgba(255,255,255,0)"
+  }
+}

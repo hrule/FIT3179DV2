@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "projection": {"type": "albersUsa"},
+  "params": [
+    {
+      "name": "conferenceSelect",
+      "value": "East"
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "data/states-10m-cut.json",
+        "format": {"type": "topojson", "feature": "states"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {"url": "data/nba_stadiums.csv"},
+      "mark": {"type": "circle"},
+      "encoding": {
+        "longitude": {"field": "Long", "type": "quantitative"},
+        "latitude": {"field": "Lat", "type": "quantitative"},
+        "color": {
+          "value": {"expr": "datum.Division == 'East' ? 'blue' : 'red'"}
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.Division == conferenceSelect",
+            "value": 1
+          },
+          "value": 0.3
+        },
+        "size": {"value": 100},
+        "tooltip": [
+          {"field": "Team", "type": "nominal"},
+          {"field": "Division", "type": "nominal"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "transparent"},
+    "legend": {"disable": true},
+    "background": "rgba(255, 255, 255, 0)"
+  }
+}

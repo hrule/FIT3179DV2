@@ -1,0 +1,735 @@
+Team,Year,TradeCount
+Philadelphia 76ers,2000,1
+Philadelphia 76ers,2001,5
+Philadelphia 76ers,2002,5
+Philadelphia 76ers,2003,4
+Philadelphia 76ers,2004,3
+Philadelphia 76ers,2005,4
+Philadelphia 76ers,2006,5
+Philadelphia 76ers,2007,6
+Philadelphia 76ers,2008,1
+Philadelphia 76ers,2009,1
+Philadelphia 76ers,2010,3
+Philadelphia 76ers,2012,6
+Philadelphia 76ers,2013,7
+Philadelphia 76ers,2014,15
+Philadelphia 76ers,2015,8
+Philadelphia 76ers,2016,3
+Philadelphia 76ers,2017,8
+Philadelphia 76ers,2018,8
+Philadelphia 76ers,2019,9
+Philadelphia 76ers,2020,5
+Philadelphia 76ers,2021,2
+Philadelphia 76ers,2022,2
+Philadelphia 76ers,2023,2
+Philadelphia 76ers,2024,5
+Philadelphia 76ers,2025,3
+Portland Trail Blazers,2000,2
+Portland Trail Blazers,2001,3
+Portland Trail Blazers,2002,1
+Portland Trail Blazers,2003,1
+Portland Trail Blazers,2004,4
+Portland Trail Blazers,2005,2
+Portland Trail Blazers,2006,8
+Portland Trail Blazers,2007,4
+Portland Trail Blazers,2008,6
+Portland Trail Blazers,2009,3
+Portland Trail Blazers,2010,4
+Portland Trail Blazers,2011,3
+Portland Trail Blazers,2012,5
+Portland Trail Blazers,2013,5
+Portland Trail Blazers,2015,6
+Portland Trail Blazers,2016,4
+Portland Trail Blazers,2017,5
+Portland Trail Blazers,2018,2
+Portland Trail Blazers,2019,5
+Portland Trail Blazers,2020,4
+Portland Trail Blazers,2021,3
+Portland Trail Blazers,2022,5
+Portland Trail Blazers,2023,4
+Portland Trail Blazers,2024,5
+Portland Trail Blazers,2025,2
+Milwaukee Bucks,2000,4
+Milwaukee Bucks,2001,2
+Milwaukee Bucks,2002,3
+Milwaukee Bucks,2003,3
+Milwaukee Bucks,2004,2
+Milwaukee Bucks,2005,4
+Milwaukee Bucks,2006,4
+Milwaukee Bucks,2007,1
+Milwaukee Bucks,2008,2
+Milwaukee Bucks,2009,5
+Milwaukee Bucks,2010,6
+Milwaukee Bucks,2011,2
+Milwaukee Bucks,2012,2
+Milwaukee Bucks,2013,7
+Milwaukee Bucks,2014,3
+Milwaukee Bucks,2015,5
+Milwaukee Bucks,2016,4
+Milwaukee Bucks,2017,5
+Milwaukee Bucks,2018,3
+Milwaukee Bucks,2019,3
+Milwaukee Bucks,2020,3
+Milwaukee Bucks,2021,4
+Milwaukee Bucks,2022,2
+Milwaukee Bucks,2023,3
+Milwaukee Bucks,2024,2
+Milwaukee Bucks,2025,3
+Chicago Bulls,2000,3
+Chicago Bulls,2001,6
+Chicago Bulls,2002,2
+Chicago Bulls,2003,3
+Chicago Bulls,2004,3
+Chicago Bulls,2005,1
+Chicago Bulls,2006,5
+Chicago Bulls,2008,2
+Chicago Bulls,2009,3
+Chicago Bulls,2010,7
+Chicago Bulls,2011,2
+Chicago Bulls,2012,1
+Chicago Bulls,2014,5
+Chicago Bulls,2016,6
+Chicago Bulls,2017,4
+Chicago Bulls,2018,4
+Chicago Bulls,2019,6
+Chicago Bulls,2021,6
+Chicago Bulls,2023,1
+Chicago Bulls,2024,2
+Chicago Bulls,2025,4
+Cleveland Cavaliers,2000,4
+Cleveland Cavaliers,2001,4
+Cleveland Cavaliers,2002,4
+Cleveland Cavaliers,2003,2
+Cleveland Cavaliers,2004,5
+Cleveland Cavaliers,2005,3
+Cleveland Cavaliers,2006,4
+Cleveland Cavaliers,2007,1
+Cleveland Cavaliers,2008,4
+Cleveland Cavaliers,2009,2
+Cleveland Cavaliers,2010,3
+Cleveland Cavaliers,2011,4
+Cleveland Cavaliers,2012,3
+Cleveland Cavaliers,2013,2
+Cleveland Cavaliers,2014,9
+Cleveland Cavaliers,2015,5
+Cleveland Cavaliers,2016,6
+Cleveland Cavaliers,2017,5
+Cleveland Cavaliers,2018,6
+Cleveland Cavaliers,2019,4
+Cleveland Cavaliers,2020,4
+Cleveland Cavaliers,2021,5
+Cleveland Cavaliers,2022,4
+Cleveland Cavaliers,2023,2
+Cleveland Cavaliers,2025,2
+Boston Celtics,2000,3
+Boston Celtics,2001,1
+Boston Celtics,2002,2
+Boston Celtics,2003,6
+Boston Celtics,2004,3
+Boston Celtics,2005,5
+Boston Celtics,2006,5
+Boston Celtics,2007,2
+Boston Celtics,2008,1
+Boston Celtics,2009,2
+Boston Celtics,2010,1
+Boston Celtics,2011,6
+Boston Celtics,2012,1
+Boston Celtics,2013,5
+Boston Celtics,2014,7
+Boston Celtics,2015,9
+Boston Celtics,2016,1
+Boston Celtics,2017,3
+Boston Celtics,2018,1
+Boston Celtics,2019,4
+Boston Celtics,2020,3
+Boston Celtics,2021,7
+Boston Celtics,2022,5
+Boston Celtics,2023,9
+Boston Celtics,2024,3
+Boston Celtics,2025,4
+Los Angeles Clippers,2000,3
+Los Angeles Clippers,2001,4
+Los Angeles Clippers,2002,2
+Los Angeles Clippers,2003,1
+Los Angeles Clippers,2004,4
+Los Angeles Clippers,2005,1
+Los Angeles Clippers,2006,1
+Los Angeles Clippers,2007,1
+Los Angeles Clippers,2008,5
+Los Angeles Clippers,2009,6
+Los Angeles Clippers,2010,4
+Los Angeles Clippers,2011,2
+Los Angeles Clippers,2012,4
+Los Angeles Clippers,2013,1
+Los Angeles Clippers,2014,3
+Los Angeles Clippers,2015,4
+Los Angeles Clippers,2016,4
+Los Angeles Clippers,2017,5
+Los Angeles Clippers,2018,6
+Los Angeles Clippers,2019,6
+Los Angeles Clippers,2020,4
+Los Angeles Clippers,2021,6
+Los Angeles Clippers,2022,2
+Los Angeles Clippers,2023,6
+Los Angeles Clippers,2024,3
+Los Angeles Clippers,2025,5
+Memphis Grizzlies,2000,1
+Memphis Grizzlies,2001,3
+Memphis Grizzlies,2002,3
+Memphis Grizzlies,2003,4
+Memphis Grizzlies,2004,2
+Memphis Grizzlies,2005,3
+Memphis Grizzlies,2006,2
+Memphis Grizzlies,2007,2
+Memphis Grizzlies,2008,7
+Memphis Grizzlies,2009,7
+Memphis Grizzlies,2010,2
+Memphis Grizzlies,2011,2
+Memphis Grizzlies,2012,4
+Memphis Grizzlies,2013,7
+Memphis Grizzlies,2014,2
+Memphis Grizzlies,2015,5
+Memphis Grizzlies,2016,4
+Memphis Grizzlies,2017,3
+Memphis Grizzlies,2018,3
+Memphis Grizzlies,2019,11
+Memphis Grizzlies,2020,4
+Memphis Grizzlies,2021,7
+Memphis Grizzlies,2022,3
+Memphis Grizzlies,2023,4
+Memphis Grizzlies,2024,5
+Memphis Grizzlies,2025,5
+Atlanta Hawks,2000,1
+Atlanta Hawks,2001,5
+Atlanta Hawks,2002,3
+Atlanta Hawks,2003,1
+Atlanta Hawks,2004,8
+Atlanta Hawks,2005,2
+Atlanta Hawks,2006,1
+Atlanta Hawks,2007,1
+Atlanta Hawks,2008,1
+Atlanta Hawks,2009,2
+Atlanta Hawks,2010,2
+Atlanta Hawks,2011,1
+Atlanta Hawks,2012,5
+Atlanta Hawks,2013,5
+Atlanta Hawks,2014,4
+Atlanta Hawks,2015,3
+Atlanta Hawks,2016,3
+Atlanta Hawks,2017,9
+Atlanta Hawks,2018,6
+Atlanta Hawks,2019,10
+Atlanta Hawks,2020,7
+Atlanta Hawks,2021,2
+Atlanta Hawks,2022,6
+Atlanta Hawks,2023,6
+Atlanta Hawks,2024,3
+Atlanta Hawks,2025,7
+Miami Heat,2000,4
+Miami Heat,2001,3
+Miami Heat,2004,2
+Miami Heat,2005,2
+Miami Heat,2006,1
+Miami Heat,2007,3
+Miami Heat,2008,3
+Miami Heat,2009,5
+Miami Heat,2010,6
+Miami Heat,2011,1
+Miami Heat,2012,1
+Miami Heat,2013,2
+Miami Heat,2014,3
+Miami Heat,2015,4
+Miami Heat,2016,4
+Miami Heat,2017,1
+Miami Heat,2018,2
+Miami Heat,2019,5
+Miami Heat,2020,1
+Miami Heat,2021,4
+Miami Heat,2022,1
+Miami Heat,2023,3
+Miami Heat,2024,3
+Miami Heat,2025,3
+Charlotte Hornets,2000,2
+Charlotte Hornets,2001,2
+Charlotte Hornets,2002,1
+Charlotte Hornets,2003,1
+Charlotte Hornets,2004,3
+Charlotte Hornets,2005,6
+Charlotte Hornets,2006,6
+Charlotte Hornets,2007,2
+Charlotte Hornets,2008,3
+Charlotte Hornets,2009,4
+Charlotte Hornets,2010,10
+Charlotte Hornets,2011,4
+Charlotte Hornets,2012,7
+Charlotte Hornets,2014,4
+Charlotte Hornets,2015,6
+Charlotte Hornets,2016,3
+Charlotte Hornets,2017,4
+Charlotte Hornets,2018,6
+Charlotte Hornets,2019,1
+Charlotte Hornets,2020,2
+Charlotte Hornets,2021,4
+Charlotte Hornets,2022,3
+Charlotte Hornets,2023,3
+Charlotte Hornets,2024,6
+Charlotte Hornets,2025,5
+Utah Jazz,2000,2
+Utah Jazz,2002,1
+Utah Jazz,2003,2
+Utah Jazz,2004,3
+Utah Jazz,2005,4
+Utah Jazz,2006,2
+Utah Jazz,2007,3
+Utah Jazz,2008,1
+Utah Jazz,2009,1
+Utah Jazz,2010,3
+Utah Jazz,2011,2
+Utah Jazz,2012,2
+Utah Jazz,2013,4
+Utah Jazz,2014,3
+Utah Jazz,2015,2
+Utah Jazz,2016,6
+Utah Jazz,2017,3
+Utah Jazz,2018,3
+Utah Jazz,2019,4
+Utah Jazz,2020,5
+Utah Jazz,2021,4
+Utah Jazz,2022,7
+Utah Jazz,2023,3
+Utah Jazz,2024,3
+Utah Jazz,2025,7
+Sacramento Kings,2000,1
+Sacramento Kings,2001,2
+Sacramento Kings,2002,1
+Sacramento Kings,2003,3
+Sacramento Kings,2005,4
+Sacramento Kings,2006,2
+Sacramento Kings,2008,2
+Sacramento Kings,2009,6
+Sacramento Kings,2010,6
+Sacramento Kings,2011,4
+Sacramento Kings,2012,2
+Sacramento Kings,2013,5
+Sacramento Kings,2014,5
+Sacramento Kings,2015,3
+Sacramento Kings,2016,2
+Sacramento Kings,2017,2
+Sacramento Kings,2018,4
+Sacramento Kings,2019,4
+Sacramento Kings,2020,4
+Sacramento Kings,2021,5
+Sacramento Kings,2022,5
+Sacramento Kings,2023,5
+Sacramento Kings,2024,4
+Sacramento Kings,2025,6
+New York Knicks,2000,2
+New York Knicks,2001,3
+New York Knicks,2002,1
+New York Knicks,2003,2
+New York Knicks,2004,3
+New York Knicks,2005,4
+New York Knicks,2006,2
+New York Knicks,2007,2
+New York Knicks,2008,4
+New York Knicks,2009,4
+New York Knicks,2010,6
+New York Knicks,2011,3
+New York Knicks,2012,2
+New York Knicks,2013,2
+New York Knicks,2014,4
+New York Knicks,2015,5
+New York Knicks,2016,1
+New York Knicks,2017,1
+New York Knicks,2018,2
+New York Knicks,2019,2
+New York Knicks,2020,6
+New York Knicks,2021,6
+New York Knicks,2022,6
+New York Knicks,2023,3
+New York Knicks,2024,8
+New York Knicks,2025,2
+Los Angeles Lakers,2000,2
+Los Angeles Lakers,2001,1
+Los Angeles Lakers,2002,1
+Los Angeles Lakers,2004,4
+Los Angeles Lakers,2005,2
+Los Angeles Lakers,2006,2
+Los Angeles Lakers,2007,1
+Los Angeles Lakers,2008,1
+Los Angeles Lakers,2009,4
+Los Angeles Lakers,2010,1
+Los Angeles Lakers,2011,2
+Los Angeles Lakers,2012,5
+Los Angeles Lakers,2014,3
+Los Angeles Lakers,2015,1
+Los Angeles Lakers,2016,1
+Los Angeles Lakers,2017,4
+Los Angeles Lakers,2018,2
+Los Angeles Lakers,2019,4
+Los Angeles Lakers,2020,2
+Los Angeles Lakers,2021,2
+Los Angeles Lakers,2022,3
+Los Angeles Lakers,2023,4
+Los Angeles Lakers,2024,1
+Los Angeles Lakers,2025,2
+Orlando Magic,2000,7
+Orlando Magic,2001,5
+Orlando Magic,2002,4
+Orlando Magic,2003,5
+Orlando Magic,2004,8
+Orlando Magic,2005,3
+Orlando Magic,2006,3
+Orlando Magic,2007,4
+Orlando Magic,2008,1
+Orlando Magic,2009,4
+Orlando Magic,2010,1
+Orlando Magic,2011,2
+Orlando Magic,2012,2
+Orlando Magic,2013,2
+Orlando Magic,2014,3
+Orlando Magic,2015,4
+Orlando Magic,2016,8
+Orlando Magic,2017,3
+Orlando Magic,2018,5
+Orlando Magic,2019,2
+Orlando Magic,2020,2
+Orlando Magic,2021,4
+Orlando Magic,2022,2
+Orlando Magic,2023,3
+Orlando Magic,2024,1
+Orlando Magic,2025,2
+Dallas Mavericks,2000,7
+Dallas Mavericks,2001,4
+Dallas Mavericks,2002,1
+Dallas Mavericks,2003,3
+Dallas Mavericks,2004,8
+Dallas Mavericks,2005,1
+Dallas Mavericks,2006,3
+Dallas Mavericks,2007,3
+Dallas Mavericks,2008,2
+Dallas Mavericks,2009,6
+Dallas Mavericks,2010,5
+Dallas Mavericks,2011,5
+Dallas Mavericks,2012,4
+Dallas Mavericks,2013,5
+Dallas Mavericks,2014,4
+Dallas Mavericks,2015,1
+Dallas Mavericks,2016,2
+Dallas Mavericks,2017,4
+Dallas Mavericks,2018,5
+Dallas Mavericks,2019,4
+Dallas Mavericks,2020,4
+Dallas Mavericks,2021,2
+Dallas Mavericks,2022,3
+Dallas Mavericks,2023,4
+Dallas Mavericks,2024,6
+Dallas Mavericks,2025,2
+Brooklyn Nets,2001,2
+Brooklyn Nets,2002,1
+Brooklyn Nets,2003,1
+Brooklyn Nets,2004,5
+Brooklyn Nets,2005,2
+Brooklyn Nets,2006,2
+Brooklyn Nets,2007,2
+Brooklyn Nets,2008,5
+Brooklyn Nets,2009,2
+Brooklyn Nets,2010,8
+Brooklyn Nets,2011,5
+Brooklyn Nets,2012,5
+Brooklyn Nets,2013,1
+Brooklyn Nets,2014,9
+Brooklyn Nets,2015,4
+Brooklyn Nets,2016,2
+Brooklyn Nets,2017,6
+Brooklyn Nets,2018,6
+Brooklyn Nets,2019,5
+Brooklyn Nets,2020,1
+Brooklyn Nets,2021,6
+Brooklyn Nets,2022,2
+Brooklyn Nets,2023,5
+Brooklyn Nets,2024,7
+Brooklyn Nets,2025,3
+Denver Nuggets,2000,5
+Denver Nuggets,2001,3
+Denver Nuggets,2002,6
+Denver Nuggets,2003,2
+Denver Nuggets,2004,2
+Denver Nuggets,2005,2
+Denver Nuggets,2006,5
+Denver Nuggets,2007,2
+Denver Nuggets,2008,6
+Denver Nuggets,2009,8
+Denver Nuggets,2011,4
+Denver Nuggets,2012,2
+Denver Nuggets,2013,3
+Denver Nuggets,2014,3
+Denver Nuggets,2015,5
+Denver Nuggets,2016,3
+Denver Nuggets,2017,5
+Denver Nuggets,2018,4
+Denver Nuggets,2019,2
+Denver Nuggets,2020,4
+Denver Nuggets,2021,2
+Denver Nuggets,2022,5
+Denver Nuggets,2023,2
+Denver Nuggets,2024,3
+Denver Nuggets,2025,2
+Indiana Pacers,2000,1
+Indiana Pacers,2001,1
+Indiana Pacers,2002,1
+Indiana Pacers,2003,1
+Indiana Pacers,2004,1
+Indiana Pacers,2005,1
+Indiana Pacers,2006,6
+Indiana Pacers,2007,2
+Indiana Pacers,2008,3
+Indiana Pacers,2010,2
+Indiana Pacers,2011,2
+Indiana Pacers,2012,3
+Indiana Pacers,2013,2
+Indiana Pacers,2014,2
+Indiana Pacers,2015,3
+Indiana Pacers,2016,3
+Indiana Pacers,2017,3
+Indiana Pacers,2019,4
+Indiana Pacers,2020,1
+Indiana Pacers,2021,5
+Indiana Pacers,2022,6
+Indiana Pacers,2023,5
+Indiana Pacers,2024,5
+Indiana Pacers,2025,4
+New Orleans Pelicans,2013,2
+New Orleans Pelicans,2014,5
+New Orleans Pelicans,2015,5
+New Orleans Pelicans,2016,3
+New Orleans Pelicans,2017,5
+New Orleans Pelicans,2018,3
+New Orleans Pelicans,2019,6
+New Orleans Pelicans,2020,3
+New Orleans Pelicans,2021,6
+New Orleans Pelicans,2022,1
+New Orleans Pelicans,2023,1
+New Orleans Pelicans,2024,4
+New Orleans Pelicans,2025,5
+Detroit Pistons,2000,5
+Detroit Pistons,2001,6
+Detroit Pistons,2002,3
+Detroit Pistons,2003,2
+Detroit Pistons,2004,2
+Detroit Pistons,2005,2
+Detroit Pistons,2006,2
+Detroit Pistons,2007,2
+Detroit Pistons,2008,3
+Detroit Pistons,2009,4
+Detroit Pistons,2012,1
+Detroit Pistons,2013,2
+Detroit Pistons,2014,2
+Detroit Pistons,2015,5
+Detroit Pistons,2016,3
+Detroit Pistons,2017,2
+Detroit Pistons,2018,4
+Detroit Pistons,2019,6
+Detroit Pistons,2020,8
+Detroit Pistons,2021,5
+Detroit Pistons,2022,6
+Detroit Pistons,2023,4
+Detroit Pistons,2024,8
+Detroit Pistons,2025,4
+Toronto Raptors,2000,2
+Toronto Raptors,2001,7
+Toronto Raptors,2002,2
+Toronto Raptors,2003,4
+Toronto Raptors,2004,3
+Toronto Raptors,2005,1
+Toronto Raptors,2006,6
+Toronto Raptors,2007,3
+Toronto Raptors,2008,2
+Toronto Raptors,2009,7
+Toronto Raptors,2010,6
+Toronto Raptors,2011,2
+Toronto Raptors,2012,3
+Toronto Raptors,2013,4
+Toronto Raptors,2014,4
+Toronto Raptors,2015,2
+Toronto Raptors,2017,4
+Toronto Raptors,2018,2
+Toronto Raptors,2019,3
+Toronto Raptors,2021,4
+Toronto Raptors,2022,1
+Toronto Raptors,2023,2
+Toronto Raptors,2024,5
+Toronto Raptors,2025,3
+Houston Rockets,2000,3
+Houston Rockets,2001,6
+Houston Rockets,2002,1
+Houston Rockets,2003,2
+Houston Rockets,2004,5
+Houston Rockets,2005,3
+Houston Rockets,2006,6
+Houston Rockets,2007,5
+Houston Rockets,2008,8
+Houston Rockets,2009,6
+Houston Rockets,2010,5
+Houston Rockets,2011,4
+Houston Rockets,2012,9
+Houston Rockets,2013,4
+Houston Rockets,2014,6
+Houston Rockets,2015,3
+Houston Rockets,2016,2
+Houston Rockets,2017,11
+Houston Rockets,2018,3
+Houston Rockets,2019,6
+Houston Rockets,2020,7
+Houston Rockets,2021,7
+Houston Rockets,2022,4
+Houston Rockets,2023,5
+Houston Rockets,2024,3
+Houston Rockets,2025,4
+Oklahoma City Thunder,2000,2
+Oklahoma City Thunder,2001,1
+Oklahoma City Thunder,2002,1
+Oklahoma City Thunder,2003,4
+Oklahoma City Thunder,2004,2
+Oklahoma City Thunder,2005,1
+Oklahoma City Thunder,2006,4
+Oklahoma City Thunder,2007,4
+Oklahoma City Thunder,2008,6
+San Antonio Spurs,2000,1
+San Antonio Spurs,2001,1
+San Antonio Spurs,2002,5
+San Antonio Spurs,2003,2
+San Antonio Spurs,2004,1
+San Antonio Spurs,2005,1
+San Antonio Spurs,2006,2
+San Antonio Spurs,2007,4
+San Antonio Spurs,2008,2
+San Antonio Spurs,2009,1
+San Antonio Spurs,2010,2
+San Antonio Spurs,2011,1
+San Antonio Spurs,2012,1
+San Antonio Spurs,2014,2
+San Antonio Spurs,2015,2
+San Antonio Spurs,2016,1
+San Antonio Spurs,2018,1
+San Antonio Spurs,2019,1
+San Antonio Spurs,2021,4
+San Antonio Spurs,2022,6
+San Antonio Spurs,2023,8
+San Antonio Spurs,2024,6
+San Antonio Spurs,2025,4
+Phoenix Suns,2000,1
+Phoenix Suns,2001,6
+Phoenix Suns,2002,2
+Phoenix Suns,2003,5
+Phoenix Suns,2004,4
+Phoenix Suns,2005,8
+Phoenix Suns,2006,3
+Phoenix Suns,2007,2
+Phoenix Suns,2008,4
+Phoenix Suns,2009,3
+Phoenix Suns,2010,5
+Phoenix Suns,2011,1
+Phoenix Suns,2012,2
+Phoenix Suns,2013,7
+Phoenix Suns,2014,2
+Phoenix Suns,2015,7
+Phoenix Suns,2016,2
+Phoenix Suns,2017,4
+Phoenix Suns,2018,6
+Phoenix Suns,2019,5
+Phoenix Suns,2020,1
+Phoenix Suns,2021,2
+Phoenix Suns,2022,3
+Phoenix Suns,2023,7
+Phoenix Suns,2024,4
+Phoenix Suns,2025,6
+Oklahoma City Thunder,2009,7
+Oklahoma City Thunder,2010,6
+Oklahoma City Thunder,2011,4
+Oklahoma City Thunder,2012,1
+Oklahoma City Thunder,2013,5
+Oklahoma City Thunder,2014,4
+Oklahoma City Thunder,2015,6
+Oklahoma City Thunder,2016,5
+Oklahoma City Thunder,2017,3
+Oklahoma City Thunder,2018,4
+Oklahoma City Thunder,2019,5
+Oklahoma City Thunder,2020,12
+Oklahoma City Thunder,2021,7
+Oklahoma City Thunder,2022,5
+Oklahoma City Thunder,2023,9
+Oklahoma City Thunder,2024,6
+Oklahoma City Thunder,2025,4
+Minnesota Timberwolves,2002,1
+Minnesota Timberwolves,2003,2
+Minnesota Timberwolves,2005,2
+Minnesota Timberwolves,2006,4
+Minnesota Timberwolves,2007,5
+Minnesota Timberwolves,2008,4
+Minnesota Timberwolves,2009,10
+Minnesota Timberwolves,2010,6
+Minnesota Timberwolves,2011,8
+Minnesota Timberwolves,2012,4
+Minnesota Timberwolves,2013,4
+Minnesota Timberwolves,2014,4
+Minnesota Timberwolves,2015,5
+Minnesota Timberwolves,2017,2
+Minnesota Timberwolves,2018,1
+Minnesota Timberwolves,2019,3
+Minnesota Timberwolves,2020,7
+Minnesota Timberwolves,2021,2
+Minnesota Timberwolves,2022,5
+Minnesota Timberwolves,2023,2
+Minnesota Timberwolves,2024,5
+Minnesota Timberwolves,2025,2
+Golden State Warriors,2000,3
+Golden State Warriors,2001,2
+Golden State Warriors,2002,2
+Golden State Warriors,2003,2
+Golden State Warriors,2004,3
+Golden State Warriors,2005,4
+Golden State Warriors,2006,1
+Golden State Warriors,2007,2
+Golden State Warriors,2008,2
+Golden State Warriors,2009,4
+Golden State Warriors,2010,5
+Golden State Warriors,2011,3
+Golden State Warriors,2012,4
+Golden State Warriors,2013,6
+Golden State Warriors,2014,2
+Golden State Warriors,2015,2
+Golden State Warriors,2016,2
+Golden State Warriors,2017,1
+Golden State Warriors,2019,7
+Golden State Warriors,2020,4
+Golden State Warriors,2021,3
+Golden State Warriors,2022,1
+Golden State Warriors,2023,3
+Golden State Warriors,2024,5
+Golden State Warriors,2025,3
+Washington Wizards,2000,3
+Washington Wizards,2001,3
+Washington Wizards,2002,3
+Washington Wizards,2003,1
+Washington Wizards,2004,1
+Washington Wizards,2005,1
+Washington Wizards,2007,1
+Washington Wizards,2008,2
+Washington Wizards,2009,2
+Washington Wizards,2010,7
+Washington Wizards,2011,2
+Washington Wizards,2012,2
+Washington Wizards,2013,3
+Washington Wizards,2014,5
+Washington Wizards,2015,3
+Washington Wizards,2016,2
+Washington Wizards,2017,2
+Washington Wizards,2018,5
+Washington Wizards,2019,9
+Washington Wizards,2020,4
+Washington Wizards,2021,2
+Washington Wizards,2022,4
+Washington Wizards,2023,7
+Washington Wizards,2024,5
+Washington Wizards,2025,8

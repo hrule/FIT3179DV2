@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "data/team_history.csv"
+  },
+  "params": [
+    {
+      "name": "conferenceSelect",
+      "value": "East"
+    }
+  ],
+  "transform": [
+    {
+      "filter": "conferenceSelect == 'East' ? indexof(['Cavaliers','Celtics','Knicks','Pacers','Bucks'], datum.TEAM_NAME) >= 0 : indexof(['Thunder','Rockets','Lakers','Nuggets','Clippers'], datum.TEAM_NAME) >= 0"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "YEAR",
+      "type": "ordinal",
+      "title": "Season",
+      "axis": {
+        "labelAngle": 0,
+        "labelAlign": "center"
+      }
+    },
+    "y": {
+      "field": "CONF_RANK",
+      "type": "quantitative",
+      "title": "Conference Rank",
+      "sort": "ascending",
+      "scale": {"reverse": true, "domain": [1, 15]},
+      "axis": {
+        "tickMinStep": 1,
+        "tickCount": 15,
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "TEAM_NAME",
+      "type": "nominal",
+      "title": "Team",
+      "legend": null,
+      "scale": {
+        "domain": [
+          "Cavaliers","Celtics","Knicks","Pacers","Bucks",
+          "Thunder","Rockets","Lakers","Nuggets","Clippers"
+        ],
+        "range": [
+          "#6E243B","#007E46","#ED8025","#F5B52E","#E8DAC0",
+          "#0077BF","#C8103F","#2F006C","#F7C026","#0A213E"
+        ]
+      }
+    },
+    "opacity": {
+      "condition": {
+        "test": "datum.Conference == conferenceSelect",
+        "value": 1
+      },
+      "value": 0.3
+    },
+    "tooltip": [
+      {"field": "TEAM_NAME", "title": "Team"},
+      {"field": "YEAR", "title": "Season"},
+      {"field": "CONF_RANK", "title": "Rank"}
+    ]
+  },
+  "config": {"view": {"stroke": null}}
+}

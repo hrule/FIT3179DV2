@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "data": {
+    "url": "data/team_salaries_dumbbell.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.Salary25 - datum.Salary24",
+      "as": "SalaryChange"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#999",
+        "size": 2
+      },
+      "encoding": {
+        "y": {
+          "field": "Team",
+          "type": "ordinal",
+          "axis": {"title": ""},
+          "sort": {"field": "SalaryChange", "order": "descending"}
+        },
+        "x": {"field": "Salary24", "type": "quantitative"},
+        "x2": {"field": "Salary25"}
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {
+          "field": "Team",
+          "type": "ordinal",
+          "sort": {"field": "SalaryChange", "order": "descending"}
+        },
+        "x": {"field": "Salary24", "type": "quantitative", "title": "Salary"},
+        "color": {"value": "#1f77b4"},
+        "tooltip": [
+          {"field": "Team", "type": "nominal"},
+          {"field": "Salary24", "type": "quantitative", "format": "$,.0f", "title": "Salary 2024"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 100},
+      "encoding": {
+        "y": {
+          "field": "Team",
+          "type": "ordinal",
+          "sort": {"field": "SalaryChange", "order": "descending"}
+        },
+        "x": {"field": "Salary25", "type": "quantitative"},
+        "color": {"value": "#ff7f0e"},
+        "tooltip": [
+          {"field": "Team", "type": "nominal"},
+          {"field": "Salary25", "type": "quantitative", "format": "$,.0f", "title": "Salary 2025"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": "transparent"},
+    "axis": {"labelFontSize": 12, "titleFontSize": 14},
+    "background": "rgba(255,255,255,0)"
+  }
+}

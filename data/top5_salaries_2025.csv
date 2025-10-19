@@ -1,0 +1,158 @@
+Player,Salary,Age,Team,Conference,Rank
+Darius Garland,36725670,25,Cleveland Cavaliers,East,1
+Donovan Mitchell,35410310,28,Cleveland Cavaliers,East,1
+De'Andre Hunter,21696429,27,Cleveland Cavaliers,East,1
+Jarrett Allen,20000000,26,Cleveland Cavaliers,East,1
+Max Strus,15212068,28,Cleveland Cavaliers,East,1
+Evan Mobley,11227657,23,Cleveland Cavaliers,East,1
+Isaac Okoro,10185186,24,Cleveland Cavaliers,East,1
+Dean Wade,6166667,28,Cleveland Cavaliers,East,1
+Jaylon Tyson,3326160,22,Cleveland Cavaliers,East,1
+Ty Jerome,2560975,27,Cleveland Cavaliers,East,1
+Javonte Green,2328350,31,Cleveland Cavaliers,East,1
+Sam Merrill,2164993,28,Cleveland Cavaliers,East,1
+Tristan Thompson,2087519,33,Cleveland Cavaliers,East,1
+Craig Porter Jr.,1891857,24,Cleveland Cavaliers,East,1
+Chuma Okeke,355687,26,Cleveland Cavaliers,East,1
+Nae'Qwan Tomlin,66503,24,Cleveland Cavaliers,East,1
+Jaylen Brown,49205800,28,Boston Celtics,East,2
+Jayson Tatum,34848340,26,Boston Celtics,East,2
+Jrue Holiday,30000000,34,Boston Celtics,East,2
+Kristaps Porzingis,29268293,29,Boston Celtics,East,2
+Derrick White,20071429,30,Boston Celtics,East,2
+Al Horford,9500000,38,Boston Celtics,East,2
+Payton Pritchard,6696429,27,Boston Celtics,East,2
+Torrey Craig,3625162,34,Boston Celtics,East,2
+Baylor Scheierman,2494320,24,Boston Celtics,East,2
+Xavier Tillman Sr.,2237691,26,Boston Celtics,East,2
+Neemias Queta,2162606,25,Boston Celtics,East,2
+Sam Hauser,2092344,27,Boston Celtics,East,2
+Luke Kornet,2087519,29,Boston Celtics,East,2
+Jordan Walsh,1891857,20,Boston Celtics,East,2
+JD Davison,11997,22,Boston Celtics,East,2
+Karl-Anthony Towns,49205800,29,New York Knicks,East,3
+OG Anunoby,36637932,27,New York Knicks,East,3
+Jalen Brunson,24960001,28,New York Knicks,East,3
+Mikal Bridges,23300000,28,New York Knicks,East,3
+Josh Hart,18144000,29,New York Knicks,East,3
+Mitchell Robinson,14318182,26,New York Knicks,East,3
+P.J. Tucker,12025777,39,New York Knicks,East,3
+Precious Achiuwa,6000000,25,New York Knicks,East,3
+Miles McBride,4710144,24,New York Knicks,East,3
+MarJon Beauchamp,2733720,24,New York Knicks,East,3
+Tyler Kolek,2087519,23,New York Knicks,East,3
+Cameron Payne,2087519,30,New York Knicks,East,3
+Delon Wright,2087519,32,New York Knicks,East,3
+Pacome Dadiet,1808080,19,New York Knicks,East,3
+Landry Shamet,1343690,27,New York Knicks,East,3
+Ariel Hukporti,1064049,22,New York Knicks,East,3
+Matt Ryan,621439,27,New York Knicks,East,3
+Tyrese Haliburton,42176400,24,Indiana Pacers,East,4
+Pascal Siakam,42176400,30,Indiana Pacers,East,4
+Myles Turner,19928500,28,Indiana Pacers,East,4
+Obi Toppin,12975000,26,Indiana Pacers,East,4
+Aaron Nesmith,11000000,25,Indiana Pacers,East,4
+T.J. McConnell,9300000,32,Indiana Pacers,East,4
+Bennedict Mathurin,7245720,22,Indiana Pacers,East,4
+Jarace Walker,6362520,21,Indiana Pacers,East,4
+Isaiah Jackson,4435381,23,Indiana Pacers,East,4
+Ben Sheppard,2663880,23,Indiana Pacers,East,4
+James Wiseman,2237691,23,Indiana Pacers,East,4
+James Johnson,2087519,37,Indiana Pacers,East,4
+Thomas Bryant,2087519,27,Indiana Pacers,East,4
+Andrew Nembhard,2019699,25,Indiana Pacers,East,4
+Johnny Furphy,1850842,20,Indiana Pacers,East,4
+Tony Bradley,600545,27,Indiana Pacers,East,4
+Jahlil Okafor,119972,29,Indiana Pacers,East,4
+Giannis Antetokounmpo,48787676,30,Milwaukee Bucks,East,5
+Damian Lillard,48787676,34,Milwaukee Bucks,East,5
+Kyle Kuzma,24456061,29,Milwaukee Bucks,East,5
+Brook Lopez,23000000,36,Milwaukee Bucks,East,5
+Bobby Portis,12578286,29,Milwaukee Bucks,East,5
+Pat Connaughton,9423869,32,Milwaukee Bucks,East,5
+Kevin Porter Jr.,3366937,24,Milwaukee Bucks,East,5
+A.J. Green,2120693,25,Milwaukee Bucks,East,5
+Jericho Sims,2092344,26,Milwaukee Bucks,East,5
+Gary Trent Jr.,2087519,26,Milwaukee Bucks,East,5
+Taurean Prince,2087519,30,Milwaukee Bucks,East,5
+Chris Livingston,1891857,21,Milwaukee Bucks,East,5
+Andre Jackson Jr.,1891857,23,Milwaukee Bucks,East,5
+Tyler Smith,1157153,20,Milwaukee Bucks,East,5
+Ryan Rollins,1091887,22,Milwaukee Bucks,East,5
+Shai Gilgeous-Alexander,35859950,26,Oklahoma City Thunder,West,1
+Isaiah Hartenstein,30000000,26,Oklahoma City Thunder,West,1
+Luguentz Dort,16500000,25,Oklahoma City Thunder,West,1
+Isaiah Joe,12991650,25,Oklahoma City Thunder,West,1
+Chet Holmgren,10880640,22,Oklahoma City Thunder,West,1
+Aaron Wiggins,10514017,26,Oklahoma City Thunder,West,1
+Alex Caruso,9890000,30,Oklahoma City Thunder,West,1
+Kenrich Williams,6669000,30,Oklahoma City Thunder,West,1
+Cason Wallace,5555880,21,Oklahoma City Thunder,West,1
+Ousmane Dieng,5027040,21,Oklahoma City Thunder,West,1
+Jalen Williams,4775760,23,Oklahoma City Thunder,West,1
+Ajay Mitchell,3000000,22,Oklahoma City Thunder,West,1
+Dillon Jones,2622360,23,Oklahoma City Thunder,West,1
+Jaylin Williams,2019699,22,Oklahoma City Thunder,West,1
+Branden Carlson,496519,25,Oklahoma City Thunder,West,1
+Malevy Leons,126356,25,Oklahoma City Thunder,West,1
+Fred VanVleet,42846615,30,Houston Rockets,West,2
+Dillon Brooks,22255493,29,Houston Rockets,West,2
+Steven Adams,12600000,31,Houston Rockets,West,2
+Jalen Green,12483048,22,Houston Rockets,West,2
+Reed Sheppard,10098960,20,Houston Rockets,West,2
+Jabari Smith Jr.,9770880,21,Houston Rockets,West,2
+Amen Thompson,9249960,22,Houston Rockets,West,2
+Jock Landale,8000000,29,Houston Rockets,West,2
+Jeff Green,8000000,38,Houston Rockets,West,2
+Jae'Sean Tate,7565217,29,Houston Rockets,West,2
+Alperen Sengun,5424654,22,Houston Rockets,West,2
+Aaron Holiday,4668000,28,Houston Rockets,West,2
+Tari Eason,3695160,23,Houston Rockets,West,2
+Cam Whitmore,3379080,20,Houston Rockets,West,2
+David Roddy,2967212,23,Houston Rockets,West,2
+Jeenathan Williams,515881,25,Houston Rockets,West,2
+LeBron James,48728845,40,Los Angeles Lakers,West,3
+Luka Doncic,43031940,25,Los Angeles Lakers,West,3
+Rui Hachimura,17000000,26,Los Angeles Lakers,West,3
+Dorian Finney-Smith,14924167,31,Los Angeles Lakers,West,3
+Austin Reaves,12976362,26,Los Angeles Lakers,West,3
+Gabe Vincent,11000000,28,Los Angeles Lakers,West,3
+Jarred Vanderbilt,10714286,25,Los Angeles Lakers,West,3
+Dalton Knecht,3819120,23,Los Angeles Lakers,West,3
+Shake Milton,2875000,28,Los Angeles Lakers,West,3
+Alex Len,2831348,31,Los Angeles Lakers,West,3
+Cam Reddish,2463946,25,Los Angeles Lakers,West,3
+Jaxson Hayes,2463946,24,Los Angeles Lakers,West,3
+Markieff Morris,2087519,35,Los Angeles Lakers,West,3
+Bronny James,1157153,20,Los Angeles Lakers,West,3
+Jordan Goodwin,223718,26,Los Angeles Lakers,West,3
+Nikola Jokic,51415938,29,Denver Nuggets,West,4
+Jamal Murray,36016200,27,Denver Nuggets,West,4
+Michael Porter Jr.,35859950,26,Denver Nuggets,West,4
+Aaron Gordon,22841455,29,Denver Nuggets,West,4
+Zeke Nnaji,8888889,24,Denver Nuggets,West,4
+Russell Westbrook,5631296,36,Denver Nuggets,West,4
+Dario Saric,5168000,30,Denver Nuggets,West,4
+Christian Braun,3089640,23,Denver Nuggets,West,4
+Julian Strawther,2552520,22,Denver Nuggets,West,4
+Peyton Watson,2413560,22,Denver Nuggets,West,4
+DeAndre Jordan,2087519,36,Denver Nuggets,West,4
+Vlatko Cancar,2087519,27,Denver Nuggets,West,4
+Jalen Pickett,1891857,25,Denver Nuggets,West,4
+Hunter Tyson,1891857,24,Denver Nuggets,West,4
+Kawhi Leonard,49205800,33,Los Angeles Clippers,West,5
+Ben Simmons,40011909,28,Los Angeles Clippers,West,5
+James Harden,33653846,35,Los Angeles Clippers,West,5
+Norman Powell,19241379,31,Los Angeles Clippers,West,5
+Bogdan Bogdanovic,17260000,32,Los Angeles Clippers,West,5
+Ivica Zubac,11743210,27,Los Angeles Clippers,West,5
+Derrick Jones Jr.,9523810,27,Los Angeles Clippers,West,5
+Kris Dunn,5168000,30,Los Angeles Clippers,West,5
+Drew Eubanks,5000000,27,Los Angeles Clippers,West,5
+Nicolas Batum,4668000,36,Los Angeles Clippers,West,5
+Amir Coffey,3938271,27,Los Angeles Clippers,West,5
+Kobe Brown,2533920,25,Los Angeles Clippers,West,5
+Patrick Baldwin Jr.,2448840,22,Los Angeles Clippers,West,5
+Patty Mills,2087519,36,Los Angeles Clippers,West,5
+Cam Christie,1157153,19,Los Angeles Clippers,West,5
+Jordan Miller,1050000,25,Los Angeles Clippers,West,5

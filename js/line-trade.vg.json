@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 60,
+  "mark": {
+    "type": "line",
+    "strokeWidth": 3,
+    "color": "#0095ff"
+  },
+  "params": [
+    {
+      "name": "season_brush",
+      "select": {"type": "interval", "encodings": ["x"], "clear": true}
+    }
+  ],
+  "encoding": {
+    "x": {"field": "Season", "type": "ordinal", "axis": {"title": "Season", "labelAngle": 0}},
+    "y": {"aggregate": "sum", "field": "TradeCount", "type": "quantitative", "axis": {"title": "Total Trades"}},
+    "tooltip": [
+      {"field": "Season", "type": "ordinal", "title": "Season"},
+      {"aggregate": "sum", "field": "TradeCount", "type": "quantitative", "title": "Total Trade Involvement Count"}
+    ]
+  },
+  "data": {"url": "data/trade_counts_per_season.csv"},
+  "config": {
+    "view": { "stroke": "transparent" },
+      "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "white",
+      "titleColor": "white"
+    },
+    "legend": {
+      "labelColor": "white",
+      "titleColor": "white"
+    },
+    "background": "rgba(255, 255, 255, 0.0)"
+  }
+}
